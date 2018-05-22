@@ -1,0 +1,17 @@
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\Promobusque.Infra.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\Promobusque.Infra.pdb
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\obj\Debug\Promobusque.Infra.csproj.CoreCompileInputs.cache
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\obj\Debug\Promobusque.Infra.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\obj\Debug\Promobusque.Infra.pdb
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\Promobusque.Infra.dll.config
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\Npgsql.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework.xml
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\Npgsql.xml
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ramon\source\repos\Promobusque\Promobusque.Infra\obj\Debug\Promobusque.Infra.csprojResolveAssemblyReference.cache

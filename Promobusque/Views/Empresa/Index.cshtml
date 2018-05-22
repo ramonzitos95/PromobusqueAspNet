@@ -1,0 +1,81 @@
+﻿@using Promobusque.Aplicacao;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+@model EmpresaModelo
+
+<link href="~/Content/Empresa/estiloempresa.css" rel="stylesheet" />
+<script src="~/Scripts/empresa/validacaoCEP.js"></script>
+<script src="~/Scripts/empresa/Formulario.js"></script>
+
+<div class="container">
+    <h4 class="center">Cadastro de empresa</h4>
+    <p id="mensagemErro" class="text-danger">ola tudo bem</p>
+    <div class="row">
+        <form class="col s12" method="post" id="form">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Empresa LTDA" id="razaosocial" type="text" value="@Model.RazaoSocial" name="RazaoSocial">
+                    <label for="razaosocial">Razão Social </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="14.051.158/0001-03" id="cnpj" type="text" class="validate" value="@Model.Cnpj" name="Cnpj">
+                    <label for="cnpj">CNPJ</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input placeholder="http://www.google.com" value="@Model.Site" id="site" type="text" class="validate" name="Site">
+                    <label for="site">Site</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="telefone" type="text" class="validate" value="@Model.Telefone" placeholder="(47) 3365-2898" name="Telefone">
+                    <label for="telefone">Telefone</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="celular" type="text" class="validate" value="@Model.Celular" placeholder="(47) 98999-9865" name="Celular">
+                    <label for="celular">Celular</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="88352-985" value="@Model.Cep" id="cep" type="text" class="validate" name="Cep">
+                    <label for="cep">CEP</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="endereco" type="text" class="validate" value="@Model.Endereco" placeholder="Rua Brasilia" name="Endereco">
+                    <label for="endereco">Endereço</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="cidade" type="text" class="validate" value="@Model.Cidade" placeholder="Curitiba" name="Cidade">
+                    <label for="cidade">Cidade</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input id="estado" type="text" class="validate" value="@Model.Estado" placeholder="Paraná" name="Estado">
+                    <label for="estado">Estado</label>
+                </div>
+            </div>
+
+            <div class="row ">
+                <button class="btn waves-effect waves-light align-self-center align-items-center" type="submit" name="action" id="btn-submit">
+                    Gravar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+

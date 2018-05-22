@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("https://fonts.googleapis.com/icon?family=Material+Icons")
+    @Styles.Render("~/Content/materialize/css/materialize.css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/jquery-3.3.1.js")
+    @Scripts.Render("~/Scripts/JqueryMask.js")
+</head>
+<body>
+    @* Inicia o sid nave *@
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background center-align">
+                    <img src="https://scontent.ffln4-1.fna.fbcdn.net/v/t1.0-1/p160x160/27657319_1611080272343206_7426295580604539738_n.jpg?oh=95b5d54e74f12589f4a361db4d70c88a&oe=5B3B2359">
+                </div>
+                @*<a href="#!user"><img class="circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8_4XF6nw6dktzqg7U2pjZaoPjrirrlLtgMGvE6Ps0_rMIblP"></a>
+                <a href="#!name"><span class="white-text name">Empresa x</span></a>
+                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>*@
+            </div>
+        </li>
+        <li>@Html.ActionLink("Minha Empresa", "Index", "Empresa")</li>
+        <li><a href="#!">Promoções</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Categorias</a></li>
+        <li><a class="waves-effect" href="#!">Gerais</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="small material-icons dp48">menu</i></a>
+
+    @* fim do sid nave *@
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>Promobusque LTDA</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/materialize/materialize.js")
+    @Scripts.Render("~/Scripts/layout/layout.js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
